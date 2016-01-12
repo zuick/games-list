@@ -26,7 +26,14 @@ body {background: #D2D2D2;}
     display: inline-block;
     max-width: 578px;
 }
-.projects-list .picture { width: 200px;border-right: 4px solid #000000; float: left;display: inline-block;}
+.projects-list .picture { 
+    width: 200px;
+    border-right: 4px solid #000000; 
+    float: left;
+    display: inline-block;     
+    height: 150px;
+    background: black;
+}
 .projects-list .title {
     margin: 0 0 5px 0;
     font-size: 18px;
