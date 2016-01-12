@@ -1,0 +1,80 @@
+* {font-family: sans-serif;color: #0298B1;}
+body {background: #D2D2D2;}
+.content {width: 820px; margin: 0 auto;}
+.content .header {text-transform: uppercase;background: #000000;color: white;padding: 20px;}
+.btn {
+    background: #00BFDE;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    border-bottom: 4px solid #0298B1;
+}
+
+.btn:active {
+    border-bottom: none;
+    margin-top: 7px;
+    border-bottom: 1px solid #0298B1;
+}
+.projects-list .item {position: relative;height: 150px;border: 4px solid #000000;margin-bottom: 20px;background: white;}
+.projects-list .details {
+    padding: 10px 15px;
+    float: left;
+    display: inline-block;
+    max-width: 578px;
+}
+.projects-list .picture { width: 200px;border-right: 4px solid #000000; float: left;display: inline-block;}
+.projects-list .title {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+.projects-list .description {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.projects-list .handlers {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.projects-list .members {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.projects-list .special {
+    position: absolute;
+    bottom: 12px;
+}
+.projects-list .special .label {
+    background: #E2A04E;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-decoration: initial;
+}
+
+.projects-list .special .challenge{
+    background: #E24E70;
+}
+.projects-list .goto {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    margin: 0 10px 5px 0;
+}
+
+.projects-list .date {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: black;
+    padding: 0px 2px 2px 4px;
+    color: lightgrey;
+    font-size: 12px;
+    font-family: monospace;
+}
