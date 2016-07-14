@@ -2,6 +2,9 @@
 body {background: #D2D2D2;}
 .content {width: 820px; margin: 0 auto;}
 .content .header {text-transform: uppercase;background: #000000;color: white;padding: 20px;}
+.content .footer {color: #333; padding: 10px; text-align: center;}
+.content .footer .contacts {text-transform: uppercase; font-size: 20px;}
+
 .btn {
     background: #00BFDE;
     color: white;
@@ -12,6 +15,16 @@ body {background: #D2D2D2;}
     font-size: 20px;
     display: inline-block;
     border-bottom: 4px solid #0298B1;
+    max-height: 40px;
+}
+
+.google-play-badge {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-play-badge img {
+    max-height: 37px;
 }
 
 .btn:active {
